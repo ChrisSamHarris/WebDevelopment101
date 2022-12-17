@@ -12,7 +12,8 @@ The repository and journal will be following the *[Udemy 100 Days of Web Develop
 | ----------- | ----------- | ----------- |
 | 1           | Overview   | How websites work, the three main programming languages (HTML, CSS & JS), DNS Process & Domains. Beginning to create a first HTML website            |
 | 2           | HTML        | HTML elements, attributes and annotations,              |
-| 3           | HTML        |             |
+| 3           | HTML        | Basic
+s of HTML, CSS and VS code tricks and tips             |
 | 4           | CSS         |             |
 | 5           | CSS         |             |
 | 6           | CSS         |             |
