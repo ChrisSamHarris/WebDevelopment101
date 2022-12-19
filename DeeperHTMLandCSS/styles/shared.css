@@ -1,0 +1,45 @@
+/* css files are loaded with seperate requests - HTML first and then further request to CSS */
+
+body {
+  text-align: center;
+  background-color: rgb(223, 215, 207);
+  margin: 20px;
+}
+
+h1 {
+  font-family: "Oswald", sans-serif;
+  /* Imported fonts declared with '', second font is a backup should the imported font faile to load */
+  text-align: center;
+  color: rgb(113, 28, 178);
+  font-weight: bold;
+}
+
+p {
+  font-family: "Fira Sans", sans-serif;
+  text-align: center;
+  color: rgb(83, 75, 75);
+}
+
+a {
+  color: rgb(167, 1, 148);
+  text-decoration: none;
+  /* removes underlink effect of the link */
+}
+
+a:hover {
+  font-weight: bold;
+  /* change styling when the mouse hovers over */
+}
+
+#todays-challenge {
+  /* id-selector : CSS */
+  color: rgb(198, 133, 48);
+  font-weight: bold;
+  font-size: 42px;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50px;
+}

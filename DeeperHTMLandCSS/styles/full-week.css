@@ -1,0 +1,37 @@
+/* CSS: Inheritance: Controls what happens when no value is specified for a property on an element | Cascading Style Sheets: The latter/ latest rule will be the one that is applied  | Specficity: Which proeprty is applied to an element, overrules Cascading: A measure of how specific a selectio  will be i.e. an ID tag will over-rule a high-level selector*/
+
+body {
+    text-align: center;
+    background-color: rgb(223, 215, 207);
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    color: blueviolet;
+}
+
+div ul {
+    width: 300px;
+    text-align: center;
+    display: inline;
+    font-size: 24px;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    list-style-type: none;
+}
+/* child definition will OVERRIDE parent definition */
+
+li:hover {
+    font-weight: 700;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+p {
+    padding-top: 20px;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+}
